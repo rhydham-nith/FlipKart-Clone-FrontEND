@@ -1,0 +1,58 @@
+.bottom{
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom-contents{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    margin: 10px;
+    padding-left: 10px;
+}
+.bottom-contents li{
+    background-color: rgba(0, 0, 0, 0.9);
+    list-style: none;
+}
+.bottom-contents a{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-decoration: none;
+}
+.bottom-contents a :hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    text-decoration: underline;
+}
+.bottom-contents ul{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+    padding-right: 35px;
+}
+.head-li{
+    color: grey;
+    padding-right: 35px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: larger;
+    cursor: default;
+}
+
+.right-bottom{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 35px;
+}
+.right-bottom ul, .newHead{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-right: 0px;
+}
+.mail-us ul{
+    border-left: solid, 2px, grey;
+}
+
+.about, .help, .consumer-policy, .social, .mail-us, .address{
+    background-color: rgba(0, 0, 0, 0.9);
+
+}

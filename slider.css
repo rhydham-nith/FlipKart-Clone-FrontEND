@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.slider-container{
+    /* position: relative; */
+    width: 100vw;
+    overflow-x: hidden;
+}
+.arrow{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.208);
+    position: absolute;
+    top: 290px;
+    padding: 10px;
+    font-weight: bolder;
+    width: 42.5px;
+    border-radius: 33px;
+    cursor: pointer;
+    text-align: center;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+}
+.slide{
+    display: none;
+}

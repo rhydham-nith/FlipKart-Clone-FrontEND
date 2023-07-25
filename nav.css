@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    width: max-content;
+}
+nav{
+    background-color: #fff;
+}
+.nav li{
+    display: flex;
+    background-color: #fff;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: default;
+}
+.nav li img{
+    height: 64px;
+    width: 64px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    align-items: center;
+}
+.nav a li{
+    align-items: center;
+    background-color: #fff;
+    padding: 12px 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+arr{
+    background-color: #fff;
+    align-items: baseline;
+}

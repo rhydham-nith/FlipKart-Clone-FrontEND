@@ -1,0 +1,42 @@
+.another-slider{
+    display: flex;
+    /* background-color: rgb(171, 215, 241); */
+    /* background-color: #2874f0; */
+    white-space: nowrap;
+    overflow-x: auto;
+    
+}
+another-slider{
+    background-color: rgba(191, 191, 191, 0.075);
+
+}
+.another-slider::-webkit-scrollbar{
+    display: none;
+}
+.sell{
+    /* border: 2px solid red; */
+    border-radius: 7.5px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(112, 186, 229, 0.575); */
+    background-color: white;
+}
+.text, .cost{
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.brand img{
+    height: 220px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

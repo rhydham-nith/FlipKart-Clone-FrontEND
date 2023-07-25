@@ -1,0 +1,14 @@
+.bankCoupon img{
+    width: 100vw;
+}
+.product_images img{
+    padding: 7px;
+}
+*{
+    white-space: nowrap;
+    background-color: rgba(191, 191, 191, 0.098);
+    /* overflow-x: hidden; */
+}
+*::-webkit-scrollbar{
+    display: none;
+}
